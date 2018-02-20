@@ -19,9 +19,14 @@
         android:layout_height="wrap_content"
         android:text="1"
         android:textSize="20dp"
-        android:id="@+id/onwbtn"
-        android:layout_weight="1"
-        />
+        android:shadowRadius="5"
+        android:id="@+id/onebtn"
+        android:layout_weight="1"/>
+
+        <!--android:shadowColor="#A8A8A8"-->
+        <!--android:shadowDx="0"-->
+        <!--android:shadowDy="0"-->
+
 
     <Button
         android:layout_width="wrap_content"
@@ -89,7 +94,7 @@
             android:layout_height="wrap_content"
             android:text="-"
             android:textSize="20dp"
-            android:id="@+id/-btn"
+            android:id="@+id/minusbtn"
             android:layout_weight="1"
             />
 
@@ -191,18 +196,19 @@ android:layout_below="@+id/threelinear">
             android:text="stop"
             android:textSize="20dp"
             android:id="@+id/stopbtn"
+            android:background="@drawable/button_selector"
             android:layout_weight="3.83"
 
             />
 
         <Button
+            android:id="@+id/resultbtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="="
-            android:textSize="20dp"
             android:layout_weight="0.2"
-            android:id="@+id/resultbtn"
-            />
+            android:background="@drawable/button_selector"
+            android:text="="
+            android:textSize="20dp" />
 
 
 
@@ -213,6 +219,7 @@ android:layout_below="@+id/threelinear">
         android:layout_height="wrap_content"
         android:id="@+id/text1"
         android:text="       가즈아~ "
+        android:textColor="@color/text_selector"
         android:textSize="30dp"
         android:layout_below="@+id/fivelinear"/>
 
@@ -221,4 +228,11 @@ android:layout_below="@+id/threelinear">
         android:layout_height="50dp"
         android:id="@+id/text"
         android:layout_below="@+id/text1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text2"
+        android:layout_below="@+id/text"
+        android:layout_alignParentRight="true"/>
 </RelativeLayout>
