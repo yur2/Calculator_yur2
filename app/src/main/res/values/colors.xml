@@ -7,5 +7,4 @@
     <color name="colorBlue">#2196F3</color>
     <drawable name="bg_select">#2196F3</drawable>
     <drawable name="bg">#EEEEEE</drawable>
-
 </resources>
