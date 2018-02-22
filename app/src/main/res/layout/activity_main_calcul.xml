@@ -25,9 +25,10 @@
         android:layout_height="wrap_content"
         android:text="계산하기"
         android:textSize="24dp"
+
         android:id="@+id/calculbtn"
         android:layout_below="@+id/gogo"
-        android:layout_marginTop="45dp"
+        android:layout_marginTop="35dp"
         android:layout_centerHorizontal="true"
         />
 

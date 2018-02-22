@@ -5,6 +5,6 @@
     <color name="colorAccent">#FF4081</color>
     <color name="colorGrey">#Fa99</color>
     <color name="colorBlue">#2196F3</color>
-    <drawable name="bg_select">#2196F3</drawable>
-    <drawable name="bg">#EEEEEE</drawable>
+    <drawable name="peach">#Fa9</drawable>
+    <drawable name="bg2">#D294</drawable>
 </resources>
