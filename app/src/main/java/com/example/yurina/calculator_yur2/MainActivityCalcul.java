@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.RelativeLayout;
 
+import static com.example.yurina.calculator_yur2.R.*;
+
 public class MainActivityCalcul extends AppCompatActivity {
 
     @Override
@@ -14,17 +16,16 @@ public class MainActivityCalcul extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.activity_main_calcul);
 
-        Button calculbtn = (Button) findViewById(R.id.calculbtn);
+        Button calculbtn = (Button) findViewById(id.calculbtn);
 
         calculbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-               Intent intent = new Intent(MainActivityCalcul.this, SubActivityCalcul.class);
-               startActivity(intent);
+                Intent intent = new Intent(MainActivityCalcul.this, SubActivityCalcul.class);
+                startActivity(intent);
             }
         });
-
 
 
     }
