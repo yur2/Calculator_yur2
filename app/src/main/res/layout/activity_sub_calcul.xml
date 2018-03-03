@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="30dp"
         android:weightSum="4">
 
         <Button
@@ -204,7 +204,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="3.94"
             android:background="@drawable/teduri"
-            android:text="stop"
+            android:text="clear"
             android:textSize="20dp"
 
             />
@@ -243,6 +243,8 @@
         android:id="@+id/text2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="40dp"
         android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp"
         android:layout_below="@+id/text" />
 </RelativeLayout>

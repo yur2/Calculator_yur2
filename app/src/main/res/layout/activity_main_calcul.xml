@@ -8,6 +8,7 @@
     tools:context="com.example.yurina.calculator_yur2.MainActivityCalcul">
 
 
+
         <TextView
             android:id="@+id/gogo"
             android:layout_width="wrap_content"

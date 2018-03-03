@@ -6,15 +6,15 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.RelativeLayout;
-
 import static com.example.yurina.calculator_yur2.R.*;
+
 
 public class MainActivityCalcul extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.activity_main_calcul);
+        setContentView(R.layout.activity_main_calcul);
 
         Button calculbtn = (Button) findViewById(id.calculbtn);
 
